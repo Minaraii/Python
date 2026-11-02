@@ -16,3 +16,9 @@ if a == "La Disciplina te lleva a la Cumbre":
     print("Verdadero")
 else:
     print("Falso")
+
+# Decimales y Cadenas
+cumbre_1M = 1000000.00
+meta_cumbre = "1M - Iluminacion - Eudaimonia"
+print(cumbre_1M)
+print(meta_cumbre)
