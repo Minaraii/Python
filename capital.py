@@ -19,3 +19,19 @@ print(f"Faltante para la meta: ${faltante:,.2f}")
 print(f"Progreso: {porcentaje:.2f}%")
 
 print("==== FIN DEL PROGRAMA ====")
+
+# 4. Condicionales
+if porcentaje >= 100:
+    print(" CUMBRE ALCANZADA")
+
+elif porcentaje >= 75:
+    print(" CASI EN LA CUMBRE")
+
+elif porcentaje >=50:
+    print(" MITAD DEL CAMINO")
+
+elif porcentaje >= 25:
+    print(" BUEN COMIENZO ")
+
+else :
+    print (" SIGUE ADELANTE, NO TE DETENGAS")
