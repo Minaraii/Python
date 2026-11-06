@@ -32,10 +32,11 @@ print("Bienvenido al Dojo de Python")
 
 name = "Shivako"
 goal = "Construir productos digitales y monetizarlos"
+principios = "TRAIN - CREATE - MONETIZE"
 
 print(f"Desarrollador: {name}")
 print(f"Objetivo: {goal}")
-
+print(f"Principios: {principios}")
 #Comprender Tipos de Datos en Python 
 nombre = "Shivako" # str 
 capital = 1000000 # int
@@ -46,3 +47,11 @@ print(type(nombre))
 print(type(capital))
 print(type(precio))
 print(type(activo))
+
+# MISSION 02 - PYTHON
+# Logica y control de flujo 
+
+contador = 1
+while contador <= 10:
+    print(contador)
+    contador += 1
